@@ -6,7 +6,6 @@ class SampleParser
       file = STDIN.gets.chomp
       # file = "#{Rails.root}/public/sample-input.txt"
       f = File.open(file, 'r')
-      byebug
       team_hash = {}
       f.each_line { |line|
         # get team and scores
